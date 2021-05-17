@@ -89,3 +89,41 @@
 // }
 
 // console.log(s);
+
+
+// __________________________________________________
+
+// ex 29
+
+// const n = prompt("n", "");
+
+// f1:for(let i = 2 ; i<= n ; i++){
+//     for(let j = 2 ; j<= i / 2 ; j++){
+//       if( i % j === 0){
+//           continue f1;  
+//         //   label f1
+//       }
+//     }
+//     console.log(i);
+// }
+
+
+// -------------------------------------------
+
+// ex 26
+
+const n = prompt("n", "");
+
+const n = prompt("x", "");
+
+let y1 =x;
+let y2 =1;
+let s = x;
+
+for(let i = 1 ; i <= n ; i+= 2){
+  y1 *= Math.pow(x , 2);
+  y2 *= (x - 1) * x;
+  if (y1 / y2 < e) {
+      continue
+  }
+}
